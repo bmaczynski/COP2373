@@ -1,0 +1,32 @@
+Brandon Maczynski
+05.09.2024
+
+Below is the assignment rewritten for easier understanding.
+____________________________________________
+
+Write app that sells limited tickets to a cinema.
+
+Each person can buy a maximum of 4 tickets.
+
+20 maximum tickets can be sold.
+
+Ask user for desired number of tickets.
+Since we're asking for a number of tickets, we must convert their input to an integer with int.
+
+Display number of remaining tickets after they choose a number.
+
+Repeat (loop) until 20 tickets have been sold.
+
+Once all tickets have been sold, display total number of buyers.
+
+We must use a function, input, output, accumulator, conditional logic, and loops in order to achieve the above assignment.
+____________________________________________
+
+The variables we need are:
+
+total_tickets
+tickets_left
+total_buyers
+requested_tickets
+
+All of the variables must be stored as integers.
