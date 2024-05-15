@@ -1,0 +1,18 @@
+We need to create a file that contains responses from the 8 ball
+We also need to read those responses from that file
+After that we can ask a user a yes or no question, and displaying a random response from that list
+The final step would be to repeat the process until user quits
+
+
+In order to achieve the magic 8 ball, we need to:
+
+- Create a list of responses
+- Open the file in write mode
+- Write each response to the file, each on a new line. We can use \n
+- Then we open the file in read mode
+- Read each line from the file, stripping the newline character, and store the lines in a list
+
+- Greet the user
+- Enter while loop to prompt user to ask yes/no question until they quit
+- Display a random line from the file.
+- After exiting the loop, print a goodbye message.
