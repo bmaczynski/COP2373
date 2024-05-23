@@ -26,22 +26,22 @@ def check_spam(email_message):
             matched_keywords.append(keyword)
 
    # Conditional to determine likelihood of spam based on spam_count
-    if spam_score <= 3:
+    if spam_count <= 3:
         likelihood = "Unlikely to be spam"
-    elif spam_score <= 7:
+    elif spam_count <= 7:
         likelihood = "Possibly spam"
     else:
         likelihood = "Most likely spam"
 
    # Return the spam count, likelihood, and matched keywords
-    return spam_score, likelihood, matched_keywords
+    return spam_count, likelihood, matched_keywords
 
 # Get user input for email message
 email_message = input("Enter your email message: ")
 # Call the check_spam function and unpack the returned values
-spam_score, likelihood, matched_keywords = check_spam(email_message)
+spam_count, likelihood, matched_keywords = check_spam(email_message)
 
-# Display the spam score, likelihood, and matched keywords
-print(f"Spam Score: {spam_score}")
+# Display the spam count, likelihood, and matched keywords
+print(f"Spam Score: {spam_count}")
 print(f"Likelihood of being spam: {likelihood}")
 print("Matched Keywords/Phrases:", ", ".join(matched_keywords))
