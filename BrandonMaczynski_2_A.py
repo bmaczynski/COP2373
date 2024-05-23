@@ -42,6 +42,9 @@ email_message = input("Enter your email message: ")
 spam_count, likelihood, matched_keywords = check_spam(email_message)
 
 # Display the spam count, likelihood, and matched keywords
-print(f"Spam Score: {spam_count}")
+print(f"Spam Count: {spam_count}")
 print(f"Likelihood of being spam: {likelihood}")
-print("Matched Keywords/Phrases:", ", ".join(matched_keywords))
+if spam_count > 0:   
+   print("Matched Keywords/Phrases:", ", ".join(matched_keywords))
+else:
+    print("There are no matched keywords/phrases in the email message.")
