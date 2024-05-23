@@ -1,0 +1,16 @@
+The purpose of this application is to help users identify potential spam email messages by scanning for common spam-related words and phrases. By implementing a simple scoring system, users can gauge the likelihood of an email being spam based on its content.
+
+- Prompt user to enter an email message
+
+- We can compile a list of 30 common spam words that are typically found in spam emails
+
+- Use the list of spam words and scan the user's Input via loop
+   - We can create a function to scan the user's email message, and each time a keyword or phrase is found, we can add a point to a spam count var
+
+- Once the score is totaled, we can have a conditional sort that count into a variety of spam categories.
+   - if the score is < 3 we can mark it as not likely to be spam, 4-7 points possibly spam, 8+ points Most likely spam
+
+- We can then display
+   - Spam score
+   - Which category the user's spam score falls into
+   - The words that were flagged
