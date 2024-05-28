@@ -1,0 +1,16 @@
+Brandon Maczynski
+05.27.2024
+
+The main function of the program will:
+- Handle user input and store each expense as a tuple in a list 
+- The reduce method will be used to calculate the total expenses, as well as identify the highest and lowest expenses. 
+- The program will display the results in a clear and user-friendly format.
+
+
+Input: The program will repeatedly prompt the user for the expense type and amount until the user types 'done'.
+
+Storage: Expenses will be stored as tuples in a list.
+
+Reduce: The reduce method will be used to calculate the total, highest, and lowest expenses.
+
+Output: The program will print the total expense, the highest expense with its type, and the lowest expense with its type.
