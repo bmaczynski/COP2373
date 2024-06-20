@@ -1,0 +1,12 @@
+We need to create a script to validate phone nums, ssns, zip codes.
+
+We must prompt user to enter information, and take that information entered, validate it, and display a result from the validation functions.
+
+Validation functions will need regex to validate the formats and ensure the input matches the format.
+
+
+Display the validation results:
+   - Indicate whether each input is valid or invalid.
+
+
+Test script
