@@ -3,13 +3,19 @@ Create a Python script that allows the user to enter any number of sentences, in
 1. Prompt the user to enter sentences until they decide to stop.
    - We can use a while loop and break when keyword exit is typed
 
-2. Store each sentence in a list.
+2. Refactoring the code for resubmission:
+   - Using 7.4, we can implement a pattern variable that holds the validation for the sentences typed by the user
+   - We can use this pattern variable in a re.findall() method for validation of a proper sentence
+
+3. Store each sentence in a list.
    - We can use append() to essentially inject input gathered into an empty list
 
-3. Display all entered sentences.
+4. Display all entered sentences.
    - Display the list by looping through the list, printing every entry
 
-4. Display the count of sentences.
+5. Display the count of sentences.
    - Print the length of the newly updated list
 
 https://github.com/bmaczynski/COP2373/blob/main/BrandonMaczynski_7_A.py
+
+
