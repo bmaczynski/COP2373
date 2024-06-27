@@ -1,0 +1,10 @@
+Create a Python script that allows an instructor to input student exam grades and store them in a CSV file. Another script will read and display the data from the CSV file.
+
+	1.	Prompt the instructor to enter the number of students.
+	   - We can use input() method to get the number of students.
+	2.	Collect student information and grades.
+	   - We will use a for loop to gather first name, last name, and three exam grades for each student.
+	3.	Write the data to a CSV file with headers.
+	   - Use the csv module to write headers and student data to grades.csv.
+	4.	Read and display the data from the CSV file.
+	   - We'll use the csv module to read the data from ‘grades.csv’ and display it in a formatted manner.
