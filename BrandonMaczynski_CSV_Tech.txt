@@ -8,3 +8,10 @@ Create a Python script that allows an instructor to input student exam grades an
 	   - Use the csv module to write headers and student data to grades.csv.
 	4.	Read and display the data from the CSV file.
 	   - We'll use the csv module to read the data from ‘grades.csv’ and display it in a formatted manner.
+
+
+   input grades script:
+      https://github.com/bmaczynski/COP2373/blob/main/BrandonMaczynski_Grades.py
+
+   read grades.csv script:
+      https://github.com/bmaczynski/COP2373/blob/main/BrandonMaczynski_Display_Grades.py
