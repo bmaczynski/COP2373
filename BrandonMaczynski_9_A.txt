@@ -1,0 +1,18 @@
+Create a Python script that implements a BankAcct class with methods for managing a bank account. The program will include functionality for adjusting the interest rate, depositing, withdrawing, and calculating interest.
+
+
+1.	Define the BankAcct class within the main function.
+	-	Class initialization includes name, account number, amount, and interest rate as instance variables.
+
+2.	Implement methods for adjusting the interest rate, depositing, withdrawing, and calculating interest.
+	-	Define methods: adjust_interest_rate, deposit, withdraw, balance, and calculate_interest.
+
+3.	Store account details and perform operations.
+	-	Store account details using instance variables and perform operations by calling the defined methods.
+
+4.	Display account information and results of operations.
+	-	Use the str method to return a string representation of the account’s state.
+   
+5.	Test the functionality by creating an instance of BankAcct and performing operations.
+	-	Create a BankAcct instance and test deposit, withdraw, and adjust_interest_rate methods.
+	-	Print account information and calculated interest to verify functionality.
