@@ -12,7 +12,12 @@ Create a Python script that implements a BankAcct class with methods for managin
 
 4.	Display account information and results of operations.
 	-	Use the str method to return a string representation of the account’s state.
-   
+
 5.	Test the functionality by creating an instance of BankAcct and performing operations.
 	-	Create a BankAcct instance and test deposit, withdraw, and adjust_interest_rate methods.
 	-	Print account information and calculated interest to verify functionality.
+
+
+Repo:
+
+https://github.com/bmaczynski/COP2373/blob/main/BrandonMaczynski_9_A.py
