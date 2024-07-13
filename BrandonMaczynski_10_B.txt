@@ -43,3 +43,7 @@
 	      - Subtracting from the account balance using withdraw method
 	      - Calculating interest for a specified number of days
 	      - Adjusting the interest rate
+
+         REPO:
+
+         https://github.com/bmaczynski/COP2373/blob/main/BrandonMaczynski_10_B.py
