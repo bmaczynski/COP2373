@@ -1,0 +1,33 @@
+	1.	Class Definition
+
+	      - Use inheritance from Decimal to create a Money class
+         - Money class should handle value and currency units
+
+	2.	Initialization
+
+	      - Override __new__ to create a new instance of Money as a subclass of Decimal
+		   - Initialize units attribute in __new__
+
+	3.	String Representation
+
+	      - Override __str__ to return the value along with currency units
+
+   4. Mathematical Methods
+
+         - Create methods to add, subtract, and multiply currencies
+         - We can create new money variables to hold the total for each method
+
+	5.	Test Function
+
+	      - Create instances of Money with different values and units
+	      - Test addition, subtraction, and multiplication operations
+	      - Catch and print errors
+
+	6.	Test Case
+
+	      - Adding two Money objects with the same units
+	      - Subtracting two Money objects with the same units
+	      - Multiplying a Money object by a number
+	      - Adding Money objects with different units should raise an error
+
+         
