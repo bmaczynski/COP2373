@@ -1,0 +1,45 @@
+	1.	Class Definition
+
+	      - BankAcct class must inherits from the Money class
+	      - BankAcct class should handle account details and balance management using the Money class for monetary operations
+
+	2.	Initialization
+
+	      - __init__ method initializes name, account_number, amount, and interest_rate
+	      - amount is an instance of the Money class
+
+	3.	String Representation
+
+	      - Override __str__ to return the account details and balance
+
+	4.	Interest Rate Adjustment
+
+	      - adjust_interest_rate method to update the interest rate
+
+	5.	Deposit Method
+
+	      - Use __add__ method from Money class to implement deposit
+
+	6.	Withdraw Method
+
+	      - Use __sub__ method from Money class to implement withdraw
+
+	7.	Balance Method
+
+	      - balance method to return the current balance
+
+	8.	Calculate Interest
+
+	      - calculate_interest method to calculate interest over a specified number of days
+
+	9.	Test Function
+
+	      - Create an instance of BankAcct and test deposit, withdraw, calculate_interest, and adjust_interest_rate methods
+	      - Ensure proper handling of errors for insufficient funds
+
+	10.	Test Cases
+
+	      - Adding to the account balance using deposit method
+	      - Subtracting from the account balance using withdraw method
+	      - Calculating interest for a specified number of days
+	      - Adjusting the interest rate
