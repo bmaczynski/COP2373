@@ -1,0 +1,43 @@
+Using the Deck object presented in Section 11.5, write a game program that deals a Poker hand of five cards. Then prompt the user to enter a series of numbers (for example: 1, 3, 5) that selects cards to be replaced during a draw phrase. Then print the result of drawing the new cards.
+
+1. Classes
+
+      - Card class - represents a single card with a suit and a rank
+      - Deck class - represents a deck of 52 shuffled cards
+      - PokerHand class - represents a poker hand of five cards
+
+2. Init
+
+      - Card class - initializes with a suit and a rank
+      - Deck class - initializes with 52 shuffled cards
+      - PokerHand class - initializes by drawing five cards from the deck
+
+3. String Representation
+
+      - Override __str__ in Card class to return the card details
+      - Override __str__ in PokerHand class to return the hand details
+
+4. Draw Method
+
+      - Deck class has a draw method to draw a card from the deck
+
+5. Replace Cards Method
+
+      - Create a method to replace cards within PokerHand Class.
+      - This will loop through positions of cards, which hand can utilize the method later on in our main function to replace desired cards
+
+6. Main Function
+
+      - Create a deck of cards
+      - Deal an initial poker hand of five cards
+      - Display the initial hand
+      - Prompt user to enter positions of cards to replace
+      - Replace the specified cards with new cards from the deck
+      - Display the new hand
+
+7. User Input
+
+      - The user is prompted to enter a series of numbers representing the positions of cards to replace
+
+
+REPO: 
