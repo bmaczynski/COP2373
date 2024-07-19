@@ -20,3 +20,4 @@ Write an application that determines the length of a hypotenuse of a right trian
 
 REPO:
 
+https://github.com/bmaczynski/COP2373/blob/main/BrandonMaczynski_11_B.py
