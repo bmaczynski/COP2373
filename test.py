@@ -1,5 +1,3 @@
-n = 5
+import math
 
-if isinstance(n, int):    
-
-    print('n is an integer or dervied from it.')
+print(math.floor(56.2))
