@@ -1,0 +1,22 @@
+Write an application that determines the length of a hypotenuse of a right triangle, give two pieces of information: the nearest angle, measured in degrees, and the length of the adjacent side. 
+
+1. Methods
+
+   - calculate_hypotenuse calculates the hypotenuse using angle (in degrees) and adjacent side length
+
+2. Angle Conversion
+
+   - Convert angle from degrees to radians using math.radians
+
+3. Hypotenuse Calculation
+
+   - Calculate hypotenuse: hypotenuse = adjacent_length / math.cos(angle_radians)
+
+4. Main Function
+
+   - Prompt user for angle and adjacent side length
+   - Calculate hypotenuse using calculate_hypotenuse
+   - Display the hypotenuse length
+
+REPO:
+
