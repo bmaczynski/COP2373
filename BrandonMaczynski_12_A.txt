@@ -1,0 +1,23 @@
+	1.	 Data
+
+	-	load_data function will load the student grades from CSV file into a numpy array
+
+	2.	Print First Rows
+
+	-	print_first_rows will function print the first few rows of the dataset to understand its structure
+
+	3.	Calculate Statistics
+
+	-	calculate_statistics function will calculate and print the mean, median, standard deviation, minimum, and maximum for each exam
+
+	4.	Overall Statistics
+
+	-	calculate_overall_statistics function will calculate and print the mean, median, standard deviation, minimum, and maximum for all exams combined
+
+	5.	Pass/Fail Function
+
+	-	calculate_pass_fail function will determine and print the number of students who passed and failed each exam
+
+	6.	Overall Pass Percentage
+
+	-	calculate_overall_pass_percentage function will calculate and print the overall pass percentage across all exams
