@@ -1,0 +1,19 @@
+	1.	Database Creation
+
+	-	Create a database named population_BM
+	-	Create a table named population with fields: city, year, population
+
+	2.	Data Insertion
+
+	-	Insert initial population data for 10 cities in Florida for the year 2023
+
+	3.	Population Growth Simulation
+
+	-	simulate_population_growth function to simulate population growth for the next 20 years at a 2% growth rate
+	-	Insert simulated data into the population table
+
+	4.	Population Growth Visualization
+
+	-	show_population_growth function to display population growth for a selected city using matplotlib
+	-	List available cities for user selection
+	-	Plot and display the population growth for the chosen city
